@@ -1,23 +1,5 @@
 {
-  "resources": [
-    {
-      "name": "default-role",
-      "resource_type": "iam_role",
-      "role_arn": "arn:aws:iam::602535097478:role/mikiAPI-dev",
-      "role_name": "mikiAPI-dev"
-    },
-    {
-      "name": "api_handler",
-      "resource_type": "lambda_function",
-      "lambda_arn": "arn:aws:lambda:eu-west-1:602535097478:function:mikiAPI-dev"
-    },
-    {
-      "name": "rest_api",
-      "resource_type": "rest_api",
-      "rest_api_id": "x5zlg2pwaj",
-      "rest_api_url": "https://x5zlg2pwaj.execute-api.eu-west-1.amazonaws.com/api/"
-    }
-  ],
+  "resources": [],
   "schema_version": "2.0",
   "backend": "api"
 }
